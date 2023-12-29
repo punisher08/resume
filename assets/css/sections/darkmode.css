@@ -1,0 +1,559 @@
+.dark {
+  background: #111;
+  position: absolute;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .dark .section1 {
+    min-height: 100vh;
+  }
+}
+
+.dark .styled-bg {
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+  left: -83%;
+  top: -50%;
+}
+
+@media screen and (max-width: 768px) {
+  .dark .styled-bg {
+    display: none;
+  }
+}
+
+.dark .profile .profile-md {
+  width: 75%;
+  margin: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .dark .profile .profile-md {
+    display: block;
+  }
+}
+
+.dark .profile .__image {
+  background-image: url(../images/jhom.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: calc(100vh - 0px);
+  z-index: 1;
+  border-radius: 30px;
+  z-index: 1;
+  left: 40px;
+  top: 40px;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .dark .profile .__image {
+    display: none;
+  }
+}
+
+.dark .data {
+  -webkit-transform: translate(0%, 50%);
+          transform: translate(0%, 50%);
+  top: 10%;
+  position: absolute;
+  right: 18%;
+  left: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .dark .data {
+    position: relative;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    -webkit-transform: translate(0);
+            transform: translate(0);
+    margin-bottom: 100px;
+  }
+}
+
+.dark .data .role {
+  font-size: 3rem;
+  line-height: 62px;
+  font-weight: 700;
+  margin: 18px 0 10px;
+  position: relative;
+  color: #ffb400;
+}
+
+.dark .data .role span {
+  color: #fff;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .dark .data .role span {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .dark .data .role {
+    font-size: 2rem;
+    line-height: 32px;
+  }
+}
+
+.dark .data .objective {
+  margin: 15px 0 28px;
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 200;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .dark .data .objective {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+.dark .data button {
+  color: #fff;
+}
+
+.dark .data .bg-yellow {
+  background: #ffb400;
+  color: #FFF;
+}
+
+.navigations .dark-or-light-mode {
+  border-radius: 50%;
+  background: #333;
+  color: #fff;
+  height: 50px;
+  width: 50px;
+  font-size: 1.8rem;
+}
+
+.navigations .nav-menu {
+  display: -ms-grid;
+  display: grid;
+  justify-items: end;
+}
+
+.navigations .nav-menu .btn-hovered {
+  width: auto;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
+.navigations .nav-menu .bg-normal {
+  background: #eeeeee;
+  color: #666666;
+  border: 1px solid #eeeeee;
+}
+
+.navigations .nav-menu .bg-yellow {
+  background: #ffb400;
+  color: #fff;
+}
+
+.navigations .nav-menu .active {
+  background: #ffb400;
+  color: #fff;
+}
+
+.navigations .nav-menu li {
+  font-weight: 500;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border-radius: 50px;
+  text-transform: uppercase;
+  padding: 20px;
+  width: 60px;
+  height: 60px;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -webkit-transition-duration: 0.1s;
+          transition-duration: 0.1s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+}
+
+.navigations .nav-menu li span {
+  padding: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.navigations .nav-menu li i {
+  background: #eeeeee;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .dark section.about,
+  .dark section.portfolio {
+    margin-bottom: 100px;
+  }
+}
+
+.dark section.about .title-section,
+.dark section.portfolio .title-section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 100px;
+  margin: auto;
+}
+
+.dark section.about .title-section h1,
+.dark section.portfolio .title-section h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  margin: 0;
+  z-index: 2;
+}
+
+.dark section.about .title-section h1 span,
+.dark section.portfolio .title-section h1 span {
+  color: #ffb400;
+}
+
+@media screen and (max-width: 768px) {
+  .dark section.about .title-section h1,
+  .dark section.portfolio .title-section h1 {
+    font-size: 2rem;
+    line-height: 2rem !important;
+  }
+}
+
+.dark section.about .title-section .title-bg,
+.dark section.portfolio .title-section .title-bg {
+  opacity: 0.3;
+  font-size: 110px;
+  letter-spacing: 10px;
+  line-height: .7;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .dark section.about .title-section .title-bg,
+  .dark section.portfolio .title-section .title-bg {
+    font-size: 3rem;
+    line-height: 2rem !important;
+  }
+}
+
+.dark .personal-information .__data h1 {
+  color: #fff;
+  font-weight: 300 !important;
+}
+
+.dark .personal-information .__data p {
+  color: #fff;
+  font-weight: 300 !important;
+}
+
+.dark .personal-information .__data button {
+  color: #fff !important;
+}
+
+.dark .personal-information .credentials ._cards a {
+  height: 100%;
+  font-size: 1.2rem;
+  border: 1px solid #252525 !important;
+}
+
+.dark .personal-information .credentials ._cards a dt {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffb400;
+}
+
+.dark .personal-information .credentials ._cards a dd {
+  color: #fff !important;
+  font-weight: 300 !important;
+}
+
+.dark .personal-information .credentials ._cards a dd span.sm-line {
+  border: 1px solid #fff  !important;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.dark .skills-section h1 {
+  color: #fff !important;
+}
+
+.dark .skills-section .box .skill-label h2 {
+  color: #fff  !important;
+}
+
+.dark .skills-section .box .skill-label small {
+  color: #fff  !important;
+}
+
+@media screen and (max-width: 768px) {
+  .dark section.about {
+    margin-bottom: 100px;
+  }
+}
+
+.dark section.about .experience-section .main-heading {
+  color: #fff;
+}
+
+.dark section.about .experience-section .col .__heading {
+  color: #fff;
+}
+
+.dark section.about .experience-section .col ul li .__description::after {
+  border-left: 1px solid #fff;
+}
+
+.dark section.about .experience-section .col ul li .__description .__icon i {
+  color: #fff;
+  background: #ffb400;
+}
+
+.dark section.about .experience-section .col ul li .status {
+  background-color: #ffb400;
+  color: #fff;
+}
+
+.dark section.about .experience-section .col ul li h1 {
+  color: #fff;
+}
+
+.dark section.about .experience-section .col ul li p {
+  color: #fff;
+}
+
+.dark {
+  min-height: 100vh;
+}
+
+.dark section.contact {
+  margin-bottom: 100px;
+}
+
+.dark section.contact .title-section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  height: 100px;
+  margin: auto;
+}
+
+.dark section.contact .title-section h1 {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  margin: 0;
+  z-index: 2;
+}
+
+@media screen and (max-width: 768px) {
+  .dark section.contact .title-section h1 {
+    font-size: 2rem;
+    line-height: 2rem  !important;
+  }
+}
+
+.dark section.contact .title-section h1 span {
+  color: #ffb400;
+}
+
+.dark section.contact .title-bg {
+  opacity: 0.1;
+  font-size: 110px;
+  letter-spacing: 10px;
+  line-height: .7;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  color: #fff;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
+}
+
+@media screen and (max-width: 768px) {
+  .dark section.contact .title-bg {
+    font-size: 3rem;
+  }
+}
+
+.dark section.contact h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.dark section.contact p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.dark section.contact .personal-info li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 40px;
+}
+
+.dark section.contact .personal-info li i {
+  color: #ffb400;
+  font-size: 3rem;
+}
+
+.dark section.contact .personal-info li h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.dark section.contact .soc-med {
+  margin-top: 50px;
+}
+
+.dark section.contact .soc-med ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dark section.contact .soc-med ul li {
+  background: #eee;
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.dark section.contact .soc-med ul li i {
+  padding: 10px;
+}
+
+.dark section.contact .soc-med ul li i:hover {
+  color: #fff;
+}
+
+.dark section.contact .soc-med ul li:hover {
+  background: #ffb400;
+  color: #fff;
+}
+
+.dark section.contact .contact-form form {
+  width: 80%;
+  margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .dark section.contact .contact-form form {
+    width: 100%;
+  }
+}
+
+.dark section.contact .contact-form form input {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  width: 100%;
+  color: #666;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.dark section.contact .contact-form form input:focus {
+  border: 1px solid #ffb300ad;
+  outline: none;
+}
+
+.dark section.contact .contact-form form textarea {
+  margin-top: 40px;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  color: #666;
+  width: 100%;
+  padding: 12px 26px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 30px;
+  outline: none !important;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.dark section.contact .contact-form form textarea:focus {
+  border: 1px solid #ffb300ad;
+  outline: none;
+}
+
+.dark section.contact .contact-form form button {
+  width: auto !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  color: #fff !important;
+}
+/*# sourceMappingURL=darkmode.css.map */
